@@ -1,0 +1,110 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{104, 33}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Input mark here:",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "1E6F1E55-77BE-48BF-836C-6D49D4DE5819",
+          "alignment" : "center",
+          "autocorrection_type" : "default",
+          "name" : "input_textfield",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{338, 33}, {230, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "add_mark_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "add mark",
+          "uuid" : "32E19351-DC91-4596-BF0F-955316F4EA46",
+          "class" : "Button",
+          "name" : "add_mark_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{104, 82}, {200, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "9F98DFB3-F186-46A1-9EC1-A6773ECD01EE",
+          "class" : "Button",
+          "name" : "calculate_average_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{104, 122}, {464, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "CA65967B-0B56-43DF-9AC1-4299B8BC68D4",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "output_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{624, 33}, {200, 200}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "C235812D-EE9A-40E6-A3E6-4537BCA72CBD",
+          "flex" : "WH",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "editable" : true,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "marks_textview",
+          "font_size" : 17
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
